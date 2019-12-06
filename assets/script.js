@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 
     function GetCityWeather(cityName) {
-        var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" 
+        var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" 
                                     + cityName
                                     + ",us,&APPID=bf4c90653567084d19a1c90b279b464c&units=imperial";
 
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
 
     function GetFiveDay(cityName) {
-        var queryURL = "http://api.openweathermap.org/data/2.5/forecast?q=" 
+        var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" 
                                     + cityName
                                     + ",us,&APPID=bf4c90653567084d19a1c90b279b464c&units=imperial";
 
